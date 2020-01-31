@@ -484,7 +484,7 @@ export function fetch(input, init) {
     }
 
     if ('responseType' in xhr && support.blob) {
-      xhr.responseType = 'blob'
+      // xhr.responseType = 'blob'
     }
 
     request.headers.forEach(function(value, name) {
